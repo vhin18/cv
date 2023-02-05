@@ -1,0 +1,80 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+    position: relative;
+   
+}
+#landing-page{
+   
+    text-align: left;
+    line-height: 1.5;
+
+}
+.container-fluid{
+    position: relative;
+    padding: 5% 5%;
+}
+
+.header1{
+    color: #fff;
+    font-family: 'Poppins' bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.title-image{
+    padding-top: 10%;
+    width:100%;
+    height:auto;
+}
+.bg-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.title1{
+    text-align: left;
+    line-height: 1.5;
+       
+}
+
+.title{
+    padding: 10% 5% 0;
+    color: #fff;
+    text-align: left;
+    line-height: 1.5;
+  
+    
+}
+
+.btn{
+    margin: 5% 3% 5% 0;
+    background-color: #fff;
+    border-color: blue;
+    padding: 10px 60px;
+    border-radius: 21px;
+}
+.btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+footer{
+    float: right;
+    margin-top: 50%;  
+}
+.icon{
+    margin: 1rem;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    
+}
+
+.icon:hover{
+    color: violet ;
+    border-color: violet;
+}
+
+
