@@ -1,80 +1,57 @@
 body{
-    background-color: hsl(257, 40%, 49%);
-    position: relative;
-   
-}
-#landing-page{
-   
-    text-align: left;
-    line-height: 1.5;
+    background-color: hsl(220, 15%, 55%);
+    margin: 20px;
+    text-align: center;
+    
 
 }
-.container-fluid{
-    position: relative;
-    padding: 5% 5%;
-}
-
-.header1{
-    color: #fff;
-    font-family: 'Poppins' bold;
-    font-size: 3.5rem;
+h3{
+    font-family: 'montserrat' sans-serif;
+    font-weight: 800;
     line-height: 1.5;
 }
-
-.title-image{
-    padding-top: 10%;
-    width:100%;
-    height:auto;
+p{
+    font-size: 15px;
+    line-height: 1.5;
 }
-.bg-image{
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
+.card{
+   
+    background-color: #fff;
+    text-align: center;
+    margin-top: 120px;
+    max-height: 800px;
+    max-width: 550px;
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+   
+}
+.qrcode-logo{
+    width: 550px;
     height: auto;
 }
-
-.title1{
-    text-align: left;
+.qrcode{
+    width:100%;
+    height:auto;
     line-height: 1.5;
-       
+    border-radius: 50px;
+}
+.container{
+    width: 400px;
+    height: auto; 
+    padding-top: 20px;
+
+}
+.row {
+   margin: 0;
 }
 
-.title{
-    padding: 10% 5% 0;
-    color: #fff;
-    text-align: left;
-    line-height: 1.5;
-  
-    
-}
+@media (max-width: 1028px) {
 
-.btn{
-    margin: 5% 3% 5% 0;
-    background-color: #fff;
-    border-color: blue;
-    padding: 10px 60px;
-    border-radius: 21px;
+    .row {
+        min-width:auto;
+        text-align: center;
+    }
 }
-.btn:hover{
-    background-color: hsl(300, 69%, 71%);
-    color: #fff;
-}
-footer{
-    float: right;
-    margin-top: 50%;  
-}
-.icon{
-    margin: 1rem;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 50%;
-    border: 2px solid rgb(255, 255, 255);
-    padding: 10px;
-    
-}
-
-.icon:hover{
-    color: violet ;
-    border-color: violet;
-}
-
-
